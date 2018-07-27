@@ -1,6 +1,4 @@
 node_modules/
-.env
-privatekey.pem
-public_privatekey.pfx
-publickey.cer
+keys/
 config.json
+privatekey.pem
