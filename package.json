@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^5.2.0",
     "xero-node": "^3.0.10"
   }
 }

@@ -1,5 +1,5 @@
 const XeroClient = require('xero-node').AccountingAPIClient;
-const config = require('./keys/config.json');
+const config = require('./config.json');
 const fs = require('fs');
 const xero = new XeroClient(config);
 
