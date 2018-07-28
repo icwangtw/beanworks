@@ -1,6 +1,6 @@
 # Beanworks Coding Exercise
 
-- Written using Node.js
+- Written in Node.js
 
 ## Getting Started
 
