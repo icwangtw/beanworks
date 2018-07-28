@@ -15,4 +15,4 @@
 **Run**
 
 1. Run the program using the `npm start` command.
-2. The ouput would be stored on disk in json format as `Account.json` and `Vendor.json` in  `/results`.
+2. The ouput would be stored on disk in json format as `Account.json` and `Vendor.json`.

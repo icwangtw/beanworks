@@ -6,7 +6,7 @@ const xero = new XeroClient(config);
 (async () => {
   try {
     const accountInfo = await xero.accounts.get();
-    fs.writeFile('results/Account.json', JSON.stringify(accountInfo.Accounts), function (err) {
+    fs.writeFile('Accounts.json', JSON.stringify(accountInfo.Accounts), function (err) {
       if (err) {
         return console.log('File writing error: ', err);
       }
@@ -18,7 +18,13 @@ const xero = new XeroClient(config);
 
   try {
     const vendorInfo = await xero.contacts.get();
-    fs.writeFile('results/Vendor.json', JSON.stringify(vendorInfo.Contacts), function (err) {
+    let vendors = []
+    vendorInfo.Contacts.forEach(function(contact){
+      if (contact.IsSupplier) {
+        vendors.push(contact)
+      }
+    })
+    fs.writeFile('Vendors.json', JSON.stringify(vendors), function (err) {
       if (err) {
         return console.log('File writing error: ', err);
       }
