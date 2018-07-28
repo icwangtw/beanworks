@@ -1,7 +1,6 @@
 # Beanworks Coding Exercise
 
 - Written using Node.js
-- Works
 
 ## Getting Started
 
@@ -15,4 +14,4 @@
 **Run**
 
 1. Run the program using the `npm start` command.
-2. The ouput would be stored on disk in json format as `Account.json` and `Vendor.json`.
+2. The list of accounts and vendors would be stored on disk in the root folder as `Accounts.json` and `Vendors.json` respectively.
