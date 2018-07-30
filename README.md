@@ -1,6 +1,7 @@
 # Beanworks Coding Exercise
 
-- Written in Node.js
+- Written in Node.js.
+- Requires a Xero developer account with access to a valid company with account and contact information.
 
 ## Getting Started
 
@@ -13,5 +14,5 @@
 
 **Run**
 
-1. Run the program using the `npm start` command.
+1. Navigate to the folder and run the program using the `npm start` command.
 2. The list of accounts and vendors would be stored on disk in the root folder as `Accounts.json` and `Vendors.json` respectively.
